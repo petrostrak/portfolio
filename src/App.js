@@ -8,7 +8,6 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-
   return (
     <div className="App">
       <Header />
@@ -17,7 +16,6 @@ function App() {
       <Projects />
       <About />
       <Footer />
-      <script src="./app.js"></script>
     </div>
   );
 }
