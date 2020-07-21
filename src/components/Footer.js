@@ -7,10 +7,10 @@ const Footer = () => (
             <h2>You can reach me at..</h2>
             <div className="social-icon">
                 <div className="social-item">
-                    <a href="https://www.linkedin.com/in/petrostrak/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/petrostrak/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="" /></a>
                 </div>
                 <div className="social-item">
-                    <a href="https://github.com/petrostrak" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="" /></a>
+                    <a href="https://github.com/petrostrak" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="" /></a>
                 </div>
                 <div className="social-item">
                     <a href="mailto:pit.trak@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/email.png" alt="" /></a>
