@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './components/Header';
 import img2 from './img/me-newspaper.jpg';
 import project1 from './img/project-1.png';
 import project2 from './img/project-2.png';
@@ -10,26 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <section id="header">
-        <div className="header container">
-          <div className="nav-bar">
-            <div className="brand">
-              <a href="#hero"><h1><span>P</span>etros <span>T</span>rakadas</h1></a>
-            </div>
-            <div className="nav-list">
-              <div className="hamburger"><div className="bar"></div></div>
-              <ul>
-                <li><a href="#hero" data-after="Home">Home</a></li>
-                <li><a href="#services" data-after="Service">Skills</a></li>
-                <li><a href="#projects" data-after="Projects">Projects</a></li>
-                <li><a href="#about" data-after="About">About</a></li>
-                <li><a href="#footer" data-after="Contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <Header />
       <section id="hero">
         <div className="hero container">
           <div>
@@ -75,7 +57,7 @@ function App() {
               <div className="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="" /></div>
               <h2>other</h2>
               <div>
-              <p>MySQL<br />Docker<br />Linux</p>
+                <p>MySQL<br />Docker<br />Linux</p>
               </div>
             </div>
           </div>
